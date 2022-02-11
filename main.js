@@ -36,6 +36,131 @@ document.getElementById('a1').addEventListener('click', async (e) => {
     document.getElementById('c1').click()
 })
 
+document.getElementById('a1').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q1');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c1').click()
+})
+
+document.getElementById('a2').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q2');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c2').click()
+})
+
+document.getElementById('a3').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q3');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c3').click()
+})
+document.getElementById('a4').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q4');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c4').click()
+})
+document.getElementById('a5').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q5');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c5').click()
+})
+document.getElementById('a6').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q6');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c6').click()
+})
+
+document.getElementById('a7').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q7');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c7').click()
+})
+
+document.getElementById('a8').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q8');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c8').click()
+})
+document.getElementById('a9').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q9');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c9').click()
+})
+document.getElementById('a10').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q10');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c10').click()
+})
+
 function question() {
     let location = [[39.2, 0], [88.2, -9.8], [49, -9.8],[78.4,-19.6],[9.8,-29.4],[29.4,-39.2],[9.8,-49],[49,-58.8],[58.8,-68.6],[29.4,-78.4]]
     // || (marginLeft() == location[2][0] && marginTop() == location[2][1])
