@@ -24,6 +24,13 @@ button.addEventListener('click', async (e) => {
     }
 })
 
+function question(){
+    let location = [[39.2,0],[88.2,-9.8],[49,-9.8]]
+    if((marginLeft() == location[0][0] && marginTop() == location[1][1]) || (marginLeft() == location[2][0] && marginTop() == location[3][1]) || (marginLeft() == location[4][0] && marginTop() == location[5][1])){
+        console.log("Question")
+    }
+}
+
 function wonby() {
     if (marginTop() == -88.2 && marginLeft() == 0) {
         document.querySelector("#p_turn").innerHTML = `${turn} Player Won`
@@ -50,6 +57,7 @@ function run(dicenum) {
             await move(direction)
         }
         checkladdersandsnakes()
+        question()
         resolve()
     })
 }
