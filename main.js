@@ -24,6 +24,16 @@ button.addEventListener('click', async (e) => {
     }
 })
 
+document.getElementById('a1').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q1');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            console.log(ele[i].value);
+        }
+    }
+})
+
 function question() {
     let location = [[39.2, 0], [88.2, -9.8], [49, -9.8]]
     // (marginLeft() == location[1][0] && marginTop() == location[1][1])
