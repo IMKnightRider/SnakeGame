@@ -3,7 +3,6 @@ let blue = document.querySelector('#red')
 let turn = 'red'
 let stopEvent = false
 let button = document.getElementById('btn')
-let a1 = document.getElementById('a1')
 
 button.addEventListener('click', async (e) => {
     if (!stopEvent) {
@@ -24,14 +23,17 @@ button.addEventListener('click', async (e) => {
         }
     }
 })
-a1.addEventListener('click', async (e) => {
+document.getElementById('a1').addEventListener('click', async (e) => {
     var ele = document.getElementsByName('q1');
 
     for (i = 0; i < ele.length; i++) {
         if (ele[i].checked) {
-            console.log(ele[i].value);
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
         }
     }
+    document.getElementById('c1').click()
 })
 
 function question() {
