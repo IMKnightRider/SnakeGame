@@ -24,7 +24,6 @@ button.addEventListener('click', async (e) => {
         }
     }
 })
-if(a1){
 a1.addEventListener('click', async (e) => {
     var ele = document.getElementsByName('q1');
 
@@ -33,7 +32,7 @@ a1.addEventListener('click', async (e) => {
             console.log(ele[i].value);
         }
     }
-})}
+})
 
 function question() {
     let location = [[39.2, 0], [88.2, -9.8], [49, -9.8]]
