@@ -37,13 +37,40 @@ document.getElementById('a1').addEventListener('click', async (e) => {
 })
 
 function question() {
-    let location = [[39.2, 0], [88.2, -9.8], [49, -9.8]]
-    // (marginLeft() == location[1][0] && marginTop() == location[1][1])
+    let location = [[39.2, 0], [88.2, -9.8], [49, -9.8],[78.4,-19.6],[9.8,-29.4],[29.4,-39.2],[9.8,-49],[49,-58.8],[58.8,-68.6],[29.4,-78.4]]
     // || (marginLeft() == location[2][0] && marginTop() == location[2][1])
     if (marginLeft() == location[0][0] && marginTop() == location[0][1]) {
         document.getElementById('1').click()
         // rightAnswer()
-        console.log("Yo Yo ")
+    }
+    if(marginLeft() == location[1][0] && marginTop() == location[1][1]){
+        document.getElementById('2').click()
+
+    }
+    if(marginLeft() == location[2][0] && marginTop() == location[2][1]){
+        document.getElementById('3').click()
+
+    }
+    if(marginLeft() == location[3][0] && marginTop() == location[3][1]){
+        document.getElementById('4').click()
+    }
+    if(marginLeft() == location[4][0] && marginTop() == location[4][1]){
+        document.getElementById('5').click()
+    }
+    if(marginLeft() == location[5][0] && marginTop() == location[5][1]){
+        document.getElementById('6').click()
+    }
+    if(marginLeft() == location[6][0] && marginTop() == location[6][1]){
+        document.getElementById('7').click()
+    }
+    if(marginLeft() == location[7][0] && marginTop() == location[7][1]){
+        document.getElementById('8').click()
+    }
+    if(marginLeft() == location[8][0] && marginTop() == location[8][1]){
+        document.getElementById('9').click()
+    }
+    if(marginLeft() == location[9][0] && marginTop() == location[9][1]){
+        document.getElementById('10').click()
     }
 }
 
