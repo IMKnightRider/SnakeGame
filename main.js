@@ -23,18 +23,6 @@ button.addEventListener('click', async (e) => {
         }
     }
 })
-document.getElementById('a1').addEventListener('click', async (e) => {
-    var ele = document.getElementsByName('q1');
-
-    for (i = 0; i < ele.length; i++) {
-        if (ele[i].checked) {
-            if (ele[i].value == '3') {
-                changeTurn()
-            }
-        }
-    }
-    document.getElementById('c1').click()
-})
 
 document.getElementById('a1').addEventListener('click', async (e) => {
     var ele = document.getElementsByName('q1');
