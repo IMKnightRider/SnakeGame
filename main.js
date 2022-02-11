@@ -67,7 +67,7 @@ function checkladdersandsnakes() {
 
     for (let i = 0; i < tos.length; i++) {
         if (marginLeft() == froms[i][0] && marginTop() == froms[i][1]) {
-            new Audio('/SnakeAndLadderVersion/media/win.mp3').play()
+            new Audio('win.mp3').play()
             document.querySelector(`#${turn}`).style.marginLeft = `${tos[i][0]}vmin`
             document.querySelector(`#${turn}`).style.marginTop = `${tos[i][1]}vmin`
         }
@@ -76,7 +76,7 @@ function checkladdersandsnakes() {
 }
 function move(direction) {
     return new Promise(async (resolve, reject) => {
-        new Audio('/SnakeAndLadderVersion/media/move.mp3').play()
+        new Audio('move.mp3').play()
         if (direction == 'up') {
             document.querySelector(`#${turn}`).style.marginTop = String(marginTop() - 9.8) + 'vmin'
         }
@@ -123,7 +123,7 @@ function roll() {
     return new Promise(async (resolve, reject) => {
         let dicenum = Math.floor(Math.random() * 6) + 1
         let values = [[0, -360], [-180, -360], [-180, 270], [0, -90], [270, 100], [90, 90]]
-        new Audio('/media/diceRoll.mp3').play()
+        new Audio('diceRoll.mp3').play()
         document.querySelector('#cubeinner').style.transform = 'rotateX(360deg) rotateY(360deg)'
         await new Promise(resolve => setTimeout(resolve, 750))
         document.querySelector('#cubeinner').style.transform = `rotateX(${values[dicenum - 1][0]}deg) rotateY(${values[dicenum - 1][1]}deg)`
