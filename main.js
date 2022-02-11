@@ -24,10 +24,14 @@ button.addEventListener('click', async (e) => {
     }
 })
 
-function question(){
-    let location = [[39.2,0],[88.2,-9.8],[49,-9.8]]
-    if((marginLeft() == location[0][0] && marginTop() == location[0][1]) || (marginLeft() == location[1][0] && marginTop() == location[1][1]) || (marginLeft() == location[2][0] && marginTop() == location[2][1])){
-        console.log("Question")
+function question() {
+    let location = [[39.2, 0], [88.2, -9.8], [49, -9.8]]
+    // (marginLeft() == location[1][0] && marginTop() == location[1][1])
+    // || (marginLeft() == location[2][0] && marginTop() == location[2][1])
+    if (marginLeft() == location[0][0] && marginTop() == location[0][1]) {
+        document.getElementById('1').click()
+        // rightAnswer()
+        console.log("Yo Yo ")
     }
 }
 
