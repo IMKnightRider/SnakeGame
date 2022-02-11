@@ -3,6 +3,7 @@ let blue = document.querySelector('#red')
 let turn = 'red'
 let stopEvent = false
 let button = document.getElementById('btn')
+let a1 = document.getElementById('a1')
 
 button.addEventListener('click', async (e) => {
     if (!stopEvent) {
@@ -23,8 +24,8 @@ button.addEventListener('click', async (e) => {
         }
     }
 })
-
-document.getElementById('a1').addEventListener('click', async (e) => {
+if(a1){
+a1.addEventListener('click', async (e) => {
     var ele = document.getElementsByName('q1');
 
     for (i = 0; i < ele.length; i++) {
@@ -32,7 +33,7 @@ document.getElementById('a1').addEventListener('click', async (e) => {
             console.log(ele[i].value);
         }
     }
-})
+})}
 
 function question() {
     let location = [[39.2, 0], [88.2, -9.8], [49, -9.8]]
