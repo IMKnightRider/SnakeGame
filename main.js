@@ -149,6 +149,292 @@ document.getElementById('a10').addEventListener('click', async (e) => {
     document.getElementById('c10').click()
 })
 
+document.getElementById('a11').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q11');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c11').click()
+})
+
+document.getElementById('a12').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q12');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c12').click()
+})
+
+document.getElementById('a13').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q13');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c13').click()
+})
+
+document.getElementById('a14').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q14');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c14').click()
+})
+
+document.getElementById('a15').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q15');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c15').click()
+})
+
+document.getElementById('a16').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q16');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c16').click()
+})
+
+document.getElementById('a17').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q17');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c17').click()
+})
+
+document.getElementById('a19').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q19');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c19').click()
+})
+
+document.getElementById('a20').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q20');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c20').click()
+})
+
+document.getElementById('a21').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q20');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c20').click()
+})
+
+document.getElementById('a23').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q20');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c20').click()
+})
+
+document.getElementById('a24').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q24');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c24').click()
+})
+
+document.getElementById('a25').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q25');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c25').click()
+})
+
+document.getElementById('a27').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q27');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c27').click()
+})
+
+document.getElementById('a28').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q28');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c27').click()
+})
+
+document.getElementById('a29').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q29');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c29').click()
+})
+
+document.getElementById('a31').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q31');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c31').click()
+})
+
+document.getElementById('a32').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q32');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c32').click()
+})
+
+document.getElementById('a33').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q33');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c33').click()
+})
+
+document.getElementById('a35').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q35');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c35').click()
+})
+
+document.getElementById('a36').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q36');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '1') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c36').click()
+})
+
+document.getElementById('a37').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q37');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '3') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c37').click()
+})
+
 function question() {
     let location = [[39.2, 0], [88.2, -9.8], [49, -9.8],[78.4,-19.6],[9.8,-29.4],[29.4,-39.2],[9.8,-49],[49,-58.8],[58.8,-68.6],[29.4,-78.4],[19.6,0],[58.8,0],[78.4,0],[68.6,-9.8],[29.4,-9.8],[9.8,-9.8],[0,-19.6],[19.6,-19.6],[39.2,-19.6],[58.8,-19.6],[88.2,-29.4],[68.6,-29.4],[49,-29.4],[29.4,-29.4],[0,-39.2],[19.6,-39.2],[58.8,-39.2],[78.4,-39.2],[88.2,-49],[68.6,-49],[49,-49],[29.4,-49],[0,-58.8],[19.6,-58.8],[58.8,-58.8],[78.4,-58.8],[88.2,-68.6],[29.4,-68.6],[9.8,-68.6],[0,-78.4],[58.8,-78.4],[78.4,-78.4],[88.2,-88.2],[68.6,-88.2],[49,-88.2]]
 
