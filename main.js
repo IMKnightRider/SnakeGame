@@ -149,6 +149,7 @@ document.getElementById('a10').addEventListener('click', async (e) => {
     document.getElementById('c10').click()
 })
 
+// add from this
 document.getElementById('a11').addEventListener('click', async (e) => {
     var ele = document.getElementsByName('q11');
 
@@ -267,7 +268,7 @@ document.getElementById('a20').addEventListener('click', async (e) => {
 })
 
 document.getElementById('a21').addEventListener('click', async (e) => {
-    var ele = document.getElementsByName('q20');
+    var ele = document.getElementsByName('q21');
 
     for (i = 0; i < ele.length; i++) {
         if (ele[i].checked) {
@@ -276,11 +277,11 @@ document.getElementById('a21').addEventListener('click', async (e) => {
             }
         }
     }
-    document.getElementById('c20').click()
+    document.getElementById('c21').click()
 })
 
 document.getElementById('a23').addEventListener('click', async (e) => {
-    var ele = document.getElementsByName('q20');
+    var ele = document.getElementsByName('q23');
 
     for (i = 0; i < ele.length; i++) {
         if (ele[i].checked) {
@@ -289,7 +290,7 @@ document.getElementById('a23').addEventListener('click', async (e) => {
             }
         }
     }
-    document.getElementById('c20').click()
+    document.getElementById('c23').click()
 })
 
 document.getElementById('a24').addEventListener('click', async (e) => {
@@ -341,7 +342,7 @@ document.getElementById('a28').addEventListener('click', async (e) => {
             }
         }
     }
-    document.getElementById('c27').click()
+    document.getElementById('c28').click()
 })
 
 document.getElementById('a29').addEventListener('click', async (e) => {
@@ -436,6 +437,7 @@ document.getElementById('a37').addEventListener('click', async (e) => {
 })
 
 
+// add from now
 document.getElementById('a39').addEventListener('click', async (e) => {
     var ele = document.getElementsByName('q39');
 
@@ -527,13 +529,16 @@ document.getElementById('a47').addEventListener('click', async (e) => {
     document.getElementById('c47').click()
 })
 
+
 function question() {
-    let location = [[39.2, 0], [88.2, -9.8], [49, -9.8],[78.4,-19.6],[9.8,-29.4],[29.4,-39.2],[9.8,-49],[49,-58.8],[58.8,-68.6],[29.4,-78.4],[19.6,0],[58.8,0],[78.4,0],[68.6,-9.8],[29.4,-9.8],[9.8,-9.8],[0,-19.6],[19.6,-19.6],[39.2,-19.6],[58.8,-19.6],[88.2,-29.4],[68.6,-29.4],[49,-29.4],[29.4,-29.4],[0,-39.2],[19.6,-39.2],[58.8,-39.2],[78.4,-39.2],[88.2,-49],[68.6,-49],[49,-49],[29.4,-49],[0,-58.8],[19.6,-58.8],[58.8,-58.8],[78.4,-58.8],[88.2,-68.6],[29.4,-68.6],[9.8,-68.6],[0,-78.4],[58.8,-78.4],[78.4,-78.4],[88.2,-88.2],[68.6,-88.2],[49,-88.2]]
+    let location = [[39.2, 0], [88.2, -9.8], [49, -9.8],[78.4,-19.6],[9.8,-29.4],[29.4,-39.2],[9.8,-49],[49,-58.8],[58.8,-68.6],[29.4,-78.4],[19.6,0],[58.8,0],[78.4,0],[68.6,-9.8],[29.4,-9.8],[9.8,-9.8],[0,-19.6],[19.6,-19.6],[39.2,-19.6],[58.8,-19.6],[88.2,-29.4],[68.6,-29.4],[49,-29.4],[29.4,-29.4],[0,-39.2],[19.6,-39.2],[58.8,-39.2],[78.4,-39.2],[88.2,-49],[68.6,-49],[49,-49],[29.4,-49],[0,-58.8],[19.6,-58.8],[58.8,-58.8],[78.4,-58.8],[88.2,-68.6],[29.4,-68.6],[9.8,-68.6],[0,-78.4],[58.8,-78.4],[78.4,-78.4],[88.2,-88.2],[68.6,-88.2],[49,-88.2],[58.8,-88.2],[19.6,-78.4]]
 
     console.log(location.length)
 
-    for (let i = 0; i < location.length; i++) {
+    for (let i = 0; i < 28; i++) {
         if (marginLeft() == location[i][0] && marginTop() == location[i][1]) {
+            console.log(i+1)
+
             document.getElementById(`${i+1}`).click()
         }
         
