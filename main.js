@@ -435,6 +435,98 @@ document.getElementById('a37').addEventListener('click', async (e) => {
     document.getElementById('c37').click()
 })
 
+
+document.getElementById('a39').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q39');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c39').click()
+})
+
+document.getElementById('a40').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q40');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c40').click()
+})
+
+document.getElementById('a41').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q41');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c41').click()
+})
+
+document.getElementById('a43').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q43');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c43').click()
+})
+
+document.getElementById('a44').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q44');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c44').click()
+})
+
+document.getElementById('a45').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q45');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c45').click()
+})
+
+document.getElementById('a47').addEventListener('click', async (e) => {
+    var ele = document.getElementsByName('q47');
+
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked) {
+            if (ele[i].value == '2') {
+                changeTurn()
+            }
+        }
+    }
+    document.getElementById('c47').click()
+})
+
 function question() {
     let location = [[39.2, 0], [88.2, -9.8], [49, -9.8],[78.4,-19.6],[9.8,-29.4],[29.4,-39.2],[9.8,-49],[49,-58.8],[58.8,-68.6],[29.4,-78.4],[19.6,0],[58.8,0],[78.4,0],[68.6,-9.8],[29.4,-9.8],[9.8,-9.8],[0,-19.6],[19.6,-19.6],[39.2,-19.6],[58.8,-19.6],[88.2,-29.4],[68.6,-29.4],[49,-29.4],[29.4,-29.4],[0,-39.2],[19.6,-39.2],[58.8,-39.2],[78.4,-39.2],[88.2,-49],[68.6,-49],[49,-49],[29.4,-49],[0,-58.8],[19.6,-58.8],[58.8,-58.8],[78.4,-58.8],[88.2,-68.6],[29.4,-68.6],[9.8,-68.6],[0,-78.4],[58.8,-78.4],[78.4,-78.4],[88.2,-88.2],[68.6,-88.2],[49,-88.2]]
 
