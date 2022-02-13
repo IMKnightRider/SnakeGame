@@ -557,7 +557,7 @@ function wonby() {
 
 function checkRange(dicenum) {
     let isout = false;
-    if (marginTop() == 88.2 && (marginLeft() + Number((dicenum * -9.8).toFixed(1))) < 0) {
+    if (marginTop() == 88.2 && (marginLeft() + Number((dicenum * -9.8).toFixed(1)) < 0) {
         isout = true
     }
     return isout
