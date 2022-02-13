@@ -532,7 +532,7 @@ function question() {
 
     console.log(location.length)
 
-    for (let i = 0; i < 47; i++) {
+    for (let i = 0; i < location.length; i++) {
         if (marginLeft() == location[i][0] && marginTop() == location[i][1]) {
             document.getElementById(`${i+1}`).click()
         }
